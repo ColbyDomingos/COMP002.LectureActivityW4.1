@@ -19,3 +19,6 @@ numbers.pop() // will now display 1-7 as 10 to 8 are deleted
 
 console.log("Numbers with pop(): " + numbers)
 
+let myString = "Hello Javascript!"
+
+console.log(myString.length);
