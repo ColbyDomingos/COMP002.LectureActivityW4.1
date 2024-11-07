@@ -9,6 +9,13 @@ for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i])
 }
 
-numbers.push(6, 7, 8, 9, 10)
+numbers.push(6, 7, 8, 9, 10) // New values are in the push function
 
 console.log("Numbers with push(): " + numbers)
+
+numbers.pop()
+numbers.pop()
+numbers.pop() // will now display 1-7 as 10 to 8 are deleted
+
+console.log("Numbers with pop(): " + numbers)
+
